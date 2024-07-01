@@ -1,0 +1,51 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d2e624;
+  }
+  .download-btn {
+    outline: none;
+    border: none;
+    background: #018317;
+    padding: 16px 25px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+  .download-btn:hover {
+    background: #f54702;
+  }
+  
+  .download-btn.timer {
+    color: #c28282;
+    background: none;
+    transition: none;
+    pointer-events: none;
+    font-size: 1.6rem;
+  }
+  
+  .download-btn.timer b {
+    color: #0043fa;
+    padding: 0 8px;
+  }
+  .download-btn .icon {
+    font-size: 2rem;
+  }
+  .download-btn .text {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+  
